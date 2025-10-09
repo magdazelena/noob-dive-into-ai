@@ -2,6 +2,15 @@
 
 A curated library of reusable prompt templates for software engineers.  
 Each follows a consistent structure to maximize accuracy, reproducibility, and clarity.
+## 📚 Table of Contents
+
+1. [⚙️ Code Generation](#️-1-code-generation)
+2. [🧹 Code Review and Refactoring](#-2-code-review-and-refactoring)
+3. [🧮 Data Analysis](#-4-data-analysis)
+4. [🧱 System Architecture Design](#-5-system-architecture-design)
+5. [🐞 Debugging Assistance](#-6-debugging-assistance)
+6. [🧰 API Specification](#-7-api-specification)
+7. [✅ Prompting Guidelines Summary](#-prompting-guidelines-summary)
 
 ---
 

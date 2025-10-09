@@ -1,4 +1,25 @@
 # 🧭 Prompting Rules and Principles for Engineers
+## Table of Contents
+
+1. [🧩 Core Philosophy](#-1-core-philosophy)
+2. [🧱 Prompt Structure Layers](#-2-prompt-structure-layers)
+3. [🧮 Syntax vs. Semantics](#-3-syntax-vs-semantics)
+4. [💡 Hybrid Prompt Design (Recommended)](#-4-hybrid-prompt-design-recommended)
+5. [⚙️ Scoping Techniques](#️-5-scoping-techniques)
+6. [🔁 Iterative Prompting](#-6-iterative-prompting)
+7. [🧩 Output Control and Formatting](#-7-output-control-and-formatting)
+8. [🔍 Fact Checking](#8-fact-checking)
+    - [Why LLMs Can Be Wrong](#1️⃣-why-llms-can-be-wrong)
+    - [How to Prompt for the Most Correct Answers](#2️⃣-how-to-prompt-for-the-most-correct-answers)
+    - [How to Prompt for Specific Resources](#3️⃣-how-to-prompt-for-specific-resources)
+    - [How to Prompt with Version-Specific Context](#4️⃣-how-to-prompt-with-version-specific-context)
+    - [Determining Accuracy](#5️⃣-determining-accuracy)
+    - [Can LLMs Cross-Check on the Fly?](#6️⃣-can-llms-cross-check-on-the-fly)
+    - [Settings vs. Prompt](#7️⃣-settings-vs-prompt)
+    - [Key Takeaways](#✅-key-takeaways)
+9. [🧭 TL;DR Summary](#-tldr-summary)
+
+---
 
 ## Overview
 This guide summarizes the best practices for prompting large language models (LLMs) effectively in technical and engineering contexts.  

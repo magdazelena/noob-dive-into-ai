@@ -10,6 +10,16 @@ All models interpret intent similarly, but they vary in:
 - Input style (chat vs. inline)
 - Context handling
 - Sensitivity to formatting (Markdown, JSON, comments)
+## 📋 Table of Contents
+
+1. [🧠 General Guidance](#-1-general-guidance)
+2. [🧩 Example: Code Generation Prompt](#-2-example-code-generation-prompt)
+    - [🟦 ChatGPT / GPT-5](#-chatgpt--gpt-5)
+    - [🟧 Claude](#-claude)
+    - [🟩 Copilot](#-copilot)
+3. [Adaptation Rules Summary](#3-adaptation-rules-summary)
+4. [⚙️ TL;DR — Adaptation Summary](#️-4-tldr--adaptation-summary)
+5. [🧭 Final Note](#-final-note)
 
 ---
 
