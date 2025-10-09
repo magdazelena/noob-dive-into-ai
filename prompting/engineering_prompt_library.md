@@ -10,7 +10,9 @@ Each follows a consistent structure to maximize accuracy, reproducibility, and c
 4. [🧱 System Architecture Design](#-5-system-architecture-design)
 5. [🐞 Debugging Assistance](#-6-debugging-assistance)
 6. [🧰 API Specification](#-7-api-specification)
-7. [✅ Prompting Guidelines Summary](#-prompting-guidelines-summary)
+7. [VS Code Version Check](#8-vs-code-version-check-prompt)
+8. [📖 Documentation Resources](#documentation-resources)
+9. [✅ Prompting Guidelines Summary](#-prompting-guidelines-summary)
 
 ---
 
@@ -168,7 +170,45 @@ Markdown sections:
 - Example request/response (JSON)
 
 ```
+
+## 8. VS Code version check prompt
+```markdown
+Role: VS Code development assistant
+Task: Help me check my development environment versions
+Context: Working on a Node.js/TypeScript project in VS Code
+Constraints: Provide commands I can run in the integrated terminal
+Format: Step-by-step instructions with terminal commands
+
+What are the current versions of:
+- VS Code
+- Node.js 
+- npm/yarn
+- TypeScript
+- Any active extensions
+
+Please provide terminal commands to check each.
+```
+## Documentation Resources
+
+| Category | Resource | URL | Description |
+|----------|----------|-----|-------------|
+| **VS Code Core** | Command API | [VS Code Command API](https://code.visualstudio.com/api/references/commands) | Built-in command reference for VS Code |
+| **VS Code Core** | Integrated Terminal | [Terminal Documentation](https://code.visualstudio.com/docs/terminal/basics) | How to use VS Code's integrated terminal |
+| **VS Code Core** | Settings Reference | [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings) | Complete settings documentation |
+| **VS Code Core** | Extension API | [VS Code Extension API](https://code.visualstudio.com/api) | For extension development |
+| **Languages** | TypeScript in VS Code | [TypeScript Integration](https://code.visualstudio.com/docs/languages/typescript) | TypeScript-specific features and setup |
+| **Languages** | Node.js Documentation | [Node.js Docs](https://nodejs.org/en/docs/) | Official Node.js documentation |
+| **Languages** | npm Documentation | [npm Docs](https://docs.npmjs.com/) | Package manager documentation |
+| **Development** | Git in VS Code | [Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview) | Git integration and version control |
+| **Development** | Debugging Guide | [VS Code Debugging](https://code.visualstudio.com/docs/editor/debugging) | Debugging setup and configuration |
+| **AI Tools** | GitHub Copilot | [Copilot Documentation](https://docs.github.com/en/copilot) | AI pair programming tool setup |
+| **AI Tools** | VS Code Chat | [AI Chat Features](https://code.visualstudio.com/docs/copilot/overview) | Built-in AI chat capabilities |
+| **Architecture** | Mermaid Diagrams | [Mermaid Documentation](https://mermaid.js.org/) | For system architecture diagrams |
+| **Data Analysis** | Pandas Documentation | [Pandas Docs](https://pandas.pydata.org/docs/) | Python data analysis library |
+| **API Development** | REST API Guidelines | [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines) | Best practices for REST APIs |
+| **API Development** | OpenAPI Specification | [OpenAPI Docs](https://swagger.io/specification/) | API documentation standard |
 ---
+
 
 ## ✅ Prompting Guidelines Summary
 
